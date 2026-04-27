@@ -13,8 +13,6 @@ class Task:
         self.priority = priority
         self.completed = completed
 
-    # ── Serialisation helpers ──────────────────
-
     def to_dict(self) -> dict:
         """Convert the task to a plain dictionary (for JSON storage)."""
         return {
